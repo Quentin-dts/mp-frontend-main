@@ -33,6 +33,9 @@ class Nav extends Component {
                     <li className="nav-item">
                         <Link to={'/users'} className="nav-link">User List</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to={'/settings'} className="nav-link">Settings</Link>
+                    </li>
                 </ul>
             )
 

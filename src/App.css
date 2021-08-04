@@ -7,11 +7,11 @@
 
 
 
-h1,h2,h3,h4,h5,h6,label,span {
+/*h1,h2,h3,h4,h5,h6,label,span {
   font-weight: 500;
   font-family: 'Fira Sans', sans-serif;
 
-}
+}*/
 
 body, html, .App, #root, .auth-wrapper {
   width: 100%;
@@ -21,13 +21,13 @@ body, html, .App, #root, .auth-wrapper {
 
 
 
-.auth-wrapper {
+/*.auth-wrapper {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: left;
 
-}
+}*/
 
 
 
@@ -62,7 +62,8 @@ body, html, .App, #root, .auth-wrapper {
 
 body{
   background: #edf1f5;
-  margin-top:20px;
+  padding-top: 60px;
+  
 }
 .card {
   position: relative;
@@ -74,6 +75,8 @@ body{
   background-clip: border-box;
   border: 0 solid transparent;
   border-radius: 0;
+  margin-top: 10px;
+  
 }
 .btn-circle.btn-lg, .btn-group-lg>.btn-circle.btn {
   width: 50px;
@@ -112,6 +115,33 @@ body{
   object-fit: cover;
   overflow: hidden;
   border-radius: 50%;
+}
+
+.user-link {
+  text-decoration: none !important;
+  color: black;
+}
+
+.user-details li,h2,h3,span {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  text-align: left;
+  margin: 0px 0 22px 0px;
+    
+}
+
+.btn-outline-primary {
+  text-decoration: none;
+}
+
+.department-list {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  text-align: left;
+  margin: 0px 0 22px 0px;
+    
 }
 
 

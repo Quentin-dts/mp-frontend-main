@@ -1,0 +1,222 @@
+export const memberdata =
+
+
+[
+    {"1":
+    {
+      "id": 5,
+      "accountId": 2,
+      "createDate": "2021-06-18T17:00:00",
+      "firstName": "George",
+      "lastName": "Fisher",
+      "userName": "George",
+      "emailAddress": "george@restaurantxyz.com",
+      "mobilePhone": "3055551212",
+      "phoneNumber": "3055551212",
+      "statusId": 1,
+      "gender": true,
+      "siteRole": 1,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "2":
+    {
+      "id": 4,
+      "accountId": 2,
+      "createDate": "2021-06-18T17:30:00",
+      "firstName": "Alex",
+      "lastName": "Hatten",
+      "userName": "Alex",
+      "emailAddress": "alex@restaurantxyz.com",
+      "mobilePhone": "3055551212",
+      "phoneNumber": "3055551212",
+      "statusId": 1,
+      "gender": true,
+      "siteRole": 2,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "3":
+    {
+      "id": 2,
+      "accountId": 2,
+      "createDate": "2021-06-18T18:30:00",
+      "firstName": "Gabby",
+      "lastName": "Noren",
+      "userName": "Gabby",
+      "emailAddress": "gabby@restaurantxyz.com",
+      "mobilePhone": "3055551212",
+      "phoneNumber": "3055551212",
+      "statusId": 1,
+      "gender": false,
+      "siteRole": 3,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "4":
+    {
+      "id": 1,
+      "accountId": 2,
+      "createDate": "2021-06-19T10:30:00",
+      "firstName": "Jared",
+      "lastName": "Farmer",
+      "userName": "Jared",
+      "emailAddress": "jared@restaurantxyz.com",
+      "mobilePhone": "3055551212",
+      "phoneNumber": "3055551212",
+      "statusId": 1,
+      "gender": false,
+      "siteRole": 3,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "5":
+    {
+      "id": 3,
+      "accountId": 2,
+      "createDate": "2021-06-19T11:30:00",
+      "firstName": "Michelle",
+      "lastName": "Rivera",
+      "userName": "michelle",
+      "emailAddress": "michelle@restaurantxyz.com",
+      "mobilePhone": "3055551212",
+      "phoneNumber": "3055551212",
+      "statusId": 1,
+      "gender": false,
+      "siteRole": 2,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "6":
+    {
+      "id": 12,
+      "accountId": 1,
+      "createDate": "2021-07-03T17:00:00",
+      "firstName": "Mark",
+      "lastName": "Samson",
+      "userName": "Mark",
+      "emailAddress": "mark@restaurantabc.com",
+      "mobilePhone": "5125551212",
+      "phoneNumber": "5125551212",
+      "statusId": 1,
+      "gender": true,
+      "siteRole": 1,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "7":
+    {
+      "id": 11,
+      "accountId": 1,
+      "createDate": "2021-07-03T23:00:00",
+      "firstName": "Susan",
+      "lastName": "Green",
+      "userName": "Susan",
+      "emailAddress": "susan@restaurantabc.com",
+      "mobilePhone": "5125551212",
+      "phoneNumber": "5125551212",
+      "statusId": 1,
+      "gender": false,
+      "siteRole": 2,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "8":
+    {
+      "id": 10,
+      "accountId": 1,
+      "createDate": "2021-07-06T03:30:00",
+      "firstName": "Roger",
+      "lastName": "Smith",
+      "userName": "Roger",
+      "emailAddress": "roger@restaurantabc.com",
+      "mobilePhone": "5125551212",
+      "phoneNumber": "5125551212",
+      "statusId": 1,
+      "gender": true,
+      "siteRole": 2,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "9":
+    {
+      "id": 9,
+      "accountId": 1,
+      "createDate": "2021-07-06T04:01:00",
+      "firstName": "John",
+      "lastName": "Neaman",
+      "userName": "Roger",
+      "emailAddress": "j.neaman@restaurantabc.com",
+      "mobilePhone": "5125551212",
+      "phoneNumber": "5125551212",
+      "statusId": 1,
+      "gender": true,
+      "siteRole": 2,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "10":
+    {
+      "id": 6,
+      "accountId": 1,
+      "createDate": "2021-07-06T04:18:00",
+      "firstName": "Gary",
+      "lastName": "Wright",
+      "userName": "Gary",
+      "emailAddress": "gary@restaurantabc.com",
+      "mobilePhone": "5125551212",
+      "phoneNumber": "5125551212",
+      "statusId": 1,
+      "gender": true,
+      "siteRole": 3,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "11":
+    {
+      "id": 7,
+      "accountId": 1,
+      "createDate": "2021-07-06T04:21:00",
+      "firstName": "Samantha",
+      "lastName": "Jones",
+      "userName": "Samantha",
+      "emailAddress": "samantha@restaurantabc.com",
+      "mobilePhone": "5125551212",
+      "phoneNumber": "5125551212",
+      "statusId": 1,
+      "gender": true,
+      "siteRole": 3,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    },
+    "12":
+    {
+      "id": 13,
+      "accountId": 1,
+      "createDate": "2021-07-06T04:21:00",
+      "firstName": "Norman",
+      "lastName": "Norman",
+      "userName": "Poole",
+      "emailAddress": "norman@restaurantabc.com",
+      "mobilePhone": "5125551212",
+      "phoneNumber": "5125551212",
+      "statusId": 1,
+      "gender": true,
+      "siteRole": 3,
+      "password": "not-used",
+      "locations": null,
+      "departments": null
+    }
+  }
+  ]

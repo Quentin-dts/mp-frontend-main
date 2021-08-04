@@ -11,12 +11,19 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Reset from './Components/ResetComponent';
 import Forgot from './Components/ForgotComponent';
 import UserList from './Components/UserList';
+import UserDetails from './Components/UserDetails';
+import Departments from './Components/Departments';
+import Settings from './Components/Settings';
+
+
+
+
 
 class App extends Component {
   state = {};
 
 
-  componentDidMount = () => {
+  componentDidMount() {
         
     axios.get('user').then(
         res => {
@@ -51,6 +58,9 @@ setUser = user => {
               <Route exact path="/forgot" component={Forgot} />
               <Route exact path="/reset/:id" component={Reset} />
               <Route exact path="/users" component={UserList} />
+              <Route exact path="/users/details" component={UserDetails} />
+              <Route exact path="/users/details/departments" component={Departments} />
+              <Route exact path="/settings" component={Settings} />
             </Switch>
             
           </div>
